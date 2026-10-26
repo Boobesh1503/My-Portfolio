@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boobesh Prasath | DevOps & Network Engineer</title>
+  <meta name="description" content="Portfolio of Boobesh Prasath M - DevOps Engineer, Network Engineer at Capgemini, skilled in AWS, Docker, Linux, Bash Scripting, CI/CD, SS7, and SIGTRAN.">
+  <meta name="keywords" content="Boobesh Prasath, DevOps Engineer, Network Engineer, Capgemini, AWS, Docker, Linux, Bash, Telecom, SS7, Portfolio">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Google Fonts: Newsreader (Serif like Academic CV) & Plus Jakarta Sans / Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Devicon CDN for authentic tech icons -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+  <!-- Soft Mesh Gradient Background Container -->
+  <div class="mesh-background" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="main-nav">
+    <div class="nav-container">
+      <a href="#about" class="nav-brand">Boobesh Prasath</a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Project</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Quick Search Button -->
+        <button class="nav-icon-btn" id="search-toggle-btn" title="Search site (Ctrl+K)" aria-label="Search">
+          <i data-lucide="search"></i>
+        </button>
+
+        <!-- Dark / Light Mode Toggle -->
+        <button class="nav-icon-btn" id="theme-toggle-btn" title="Toggle theme" aria-label="Toggle theme">
+          <i data-lucide="moon" class="moon-icon"></i>
+          <i data-lucide="sun" class="sun-icon"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About / Hero Section -->
+    <section class="section hero-section" id="about">
+      <div class="container hero-grid">
+        
+        <!-- Left Column: Profile Card -->
+        <div class="profile-card-wrapper">
+          <div class="profile-card">
+            <div class="avatar-container">
+              <div class="avatar-ring" id="avatar-ring" title="Click to upload/change photo">
+                <!-- Profile Avatar Image using user's real uploaded photo -->
+                <img 
+                  id="profile-img" 
+                  src="assets/profile.jpg" 
+                  alt="Boobesh Prasath M" 
+                  class="avatar-image"
+                  onerror="this.onerror=null; this.src='profile.jpg';"
+                />
+                <input type="file" id="avatar-file-input" accept="image/*" style="display: none;">
+                <!-- Online Status / Badge -->
+                <span class="status-badge" title="Open to Opportunities">
+                  <span class="pulse-dot"></span>
+                  <i data-lucide="terminal" class="status-icon"></i>
+                </span>
+                <div class="avatar-hover-overlay" id="avatar-hover-overlay">
+                  <i data-lucide="camera"></i>
+                  <span>Change</span>
+                </div>
+              </div>
+            </div>
+
+            <h1 class="profile-name">Boobesh Prasath</h1>
+            <p class="profile-pronoun">(he/him)</p>
+            <p class="profile-title">DevOps Engineer</p>
+            <p class="profile-org"><i data-lucide="briefcase"></i> Ex-Capgemini Network Engineer</p>
+            <p class="profile-location"><i data-lucide="map-pin"></i> Chennai, Tamil Nadu, India</p>
+
+            <!-- Social Links Row: Mail, Phone, LinkedIn, GitHub -->
+            <div class="social-links-row" aria-label="Social Profiles">
+              <!-- Mail -->
+              <a href="mailto:prasanth909214@gmail.com" class="social-circle-btn" title="Email: prasanth909214@gmail.com" aria-label="Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              </a>
+
+              <!-- Phone -->
+              <a href="tel:+919944425150" class="social-circle-btn" title="Call +91 9944425150" aria-label="Phone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="LinkedIn Profile" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/Boobesh1503" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="GitHub Profile" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Professional Summary & Action -->
+        <div class="summary-card-wrapper">
+          <div class="summary-card">
+            
+            <div class="section-badge-header">
+              <div class="header-icon-badge">
+                <i data-lucide="contact-2"></i>
+              </div>
+              <h2 class="academic-title">Professional Summary</h2>
+            </div>
+
+            <p class="summary-paragraph">
+              <strong>B.E. Computer Science graduate</strong> with <strong>7+ months of enterprise experience</strong> as a <strong>Network Engineer at Capgemini</strong>. Skilled in DevOps practices, Networking, Linux, Bash scripting, database validation, Configuration Validation, Log analysis and troubleshooting.
+            </p>
+            
+            <p class="summary-paragraph">
+              Hands-on experience with <strong>AWS (EC2, S3), Docker, CI/CD, Git & GitHub</strong>. Strong analytical and problem-solving skills with the ability to work effectively and quickly adapt to emerging cloud and infrastructure technologies.
+            </p>
+
+            <!-- Quick Metrics / Highlights -->
+            <div class="highlight-stats-grid">
+              <div class="stat-pill">
+                <span class="stat-num">7 Mo.</span>
+                <span class="stat-desc">Capgemini OSP</span>
+              </div>
+              <div class="stat-pill">
+                <span class="stat-num">8+</span>
+                <span class="stat-desc">Telecom Protocols</span>
+              </div>
+              <div class="stat-pill">
+                <span class="stat-num">15+</span>
+                <span class="stat-desc">Tools & Technologies</span>
+              </div>
+              <div class="stat-pill">
+                <span class="stat-num">8.2</span>
+                <span class="stat-desc">B.E. CSE GPA</span>
+              </div>
+            </div>
+
+            <!-- Download CV / Actions -->
+            <div class="hero-actions-row">
+              <button class="btn btn-gradient-cv" id="download-cv-btn" title="Download Official Resume">
+                <i data-lucide="download"></i>
+                <span>Download CV</span>
+              </button>
+
+              <button class="btn btn-outline" id="preview-resume-btn" title="Open Interactive Resume Viewer">
+                <i data-lucide="file-text"></i>
+                <span>Preview Resume</span>
+              </button>
+
+              <a href="#contact" class="btn btn-ghost">
+                <span>Get In Touch</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        
+        <div class="section-heading-container">
+          <div class="header-icon-badge">
+            <i data-lucide="briefcase"></i>
+          </div>
+          <div>
+            <h2 class="academic-title">Experience</h2>
+            <p class="section-subtitle">Hands-on enterprise engineering and frontend industry experience</p>
+          </div>
+        </div>
+
+        <div class="experience-timeline">
+          
+          <!-- Experience Card 1: Capgemini -->
+          <article class="exp-card">
+            <div class="exp-header">
+              <div class="exp-company-logo capgemini-badge">
+                <span>CG</span>
+              </div>
+              <div class="exp-title-block">
+                <div class="exp-role-row">
+                  <h3 class="exp-role">Network Engineer</h3>
+                  <span class="badge-pill tenure-pill">7 MONTHS</span>
+                </div>
+                <div class="exp-meta-row">
+                  <span class="exp-company">Capgemini</span>
+                  <span class="dot-separator">•</span>
+                  <span class="exp-project">Nokia Open Services Platform (OSP) Project</span>
+                  <span class="dot-separator">•</span>
+                  <span class="exp-date"><i data-lucide="calendar"></i> Sep 2025 – Mar 2026</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="exp-body">
+              <h4 class="exp-subheading">KEY RESPONSIBILITIES & DELIVERABLES</h4>
+              <ul class="exp-bullets">
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Data Recovery Script Development:</strong> Developed and enhanced a Data Recovery Script used to restore and validate telecom configuration data during system failures and configuration mismatches.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Automated Extraction & Validation:</strong> Automated data extraction from configuration files and compared extracted values against the live database to identify missing, corrupted, or mismatched configuration.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Configuration Recovery:</strong> Supported recovery of deleted or corrupted telecom configuration data and validated restored values before returning systems to the expected state.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Log & Trace Analysis:</strong> Maintained and analyzed logs, trace files, and SS7-related traces to investigate failures and configuration issues.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Structured Troubleshooting:</strong> Performed system and network-level debugging across CLI, middleware, and database layers, using Linux commands and structured troubleshooting.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Bash Automation:</strong> Worked with Bash scripting and Linux CLI utilities to automate repetitive validation, extraction, comparison, and file-management activities.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Database & Parameter Validation:</strong> Validated telecom configuration parameters such as DPC, SPC, SSN and related signaling configuration against database entries.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Signaling Architecture:</strong> Worked with telecom signaling concepts including SS7 and SIGTRAN architecture, with exposure to M3UA, SCTP, MTP3, SCCP, TCAP and ISUP.</span>
+                </li>
+              </ul>
+
+              <!-- Tech Tag Pills -->
+              <div class="tech-tags-list">
+                <span class="tech-tag"><i class="devicon-linux-plain colored"></i> Linux</span>
+                <span class="tech-tag"><i class="devicon-bash-plain colored"></i> Bash</span>
+                <span class="tech-tag"><i class="devicon-mysql-original colored"></i> SQL / DB Validation</span>
+                <span class="tech-tag"><i data-lucide="activity"></i> SS7</span>
+                <span class="tech-tag"><i data-lucide="radio"></i> SIGTRAN</span>
+                <span class="tech-tag"><i data-lucide="cpu"></i> Nokia OSP</span>
+                <span class="tech-tag"><i data-lucide="search-check"></i> Log Analysis</span>
+                <span class="tech-tag"><i data-lucide="git-branch"></i> Git</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience Card 2: Techvolt Software -->
+          <article class="exp-card">
+            <div class="exp-header">
+              <div class="exp-company-logo techvolt-badge">
+                <span>TS</span>
+              </div>
+              <div class="exp-title-block">
+                <div class="exp-role-row">
+                  <h3 class="exp-role">Frontend Developer</h3>
+                  <span class="badge-pill internship-pill">INTERNSHIP</span>
+                </div>
+                <div class="exp-meta-row">
+                  <span class="exp-company">Techvolt Software Private Ltd</span>
+                  <span class="dot-separator">•</span>
+                  <span class="exp-date"><i data-lucide="calendar"></i> Jun 2024 – Aug 2024</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="exp-body">
+              <h4 class="exp-subheading">KEY DELIVERABLES</h4>
+              <ul class="exp-bullets">
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span>Assisted in developing responsive web pages using <strong>HTML5 and CSS3</strong> across devices and browsers.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span>Supported UI prototypes, wireframes and mockups using <strong>Figma and Miro</strong>, contributing to design discussions and user interface improvements.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span>Participated in frontend development tasks, collaborated with team members during code reviews, and utilized <strong>Git</strong> for version control and project management workflows.</span>
+                </li>
+              </ul>
+
+              <div class="tech-tags-list">
+                <span class="tech-tag"><i class="devicon-html5-plain colored"></i> HTML5</span>
+                <span class="tech-tag"><i class="devicon-css3-plain colored"></i> CSS3</span>
+                <span class="tech-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                <span class="tech-tag"><i class="devicon-figma-plain colored"></i> Figma</span>
+                <span class="tech-tag"><i data-lucide="layout"></i> Miro</span>
+                <span class="tech-tag"><i class="devicon-git-plain colored"></i> Git</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="section-heading-container">
+          <div class="header-icon-badge">
+            <i data-lucide="folder-git-2"></i>
+          </div>
+          <div>
+            <h2 class="academic-title">Featured Projects</h2>
+            <p class="section-subtitle">Real-world implementations in data pipeline validation and cloud DevOps automation</p>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Sales ETL Project -->
+          <article class="project-card">
+            <div class="project-banner project-banner-etl">
+              <div class="project-banner-overlay">
+                <span class="project-category-tag"><i data-lucide="database"></i> Data & Testing</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Sales Data ETL Validation Project</h3>
+              <p class="project-description">
+                Comprehensive ETL testing suite utilizing MySQL to validate end-to-end data migration from enterprise source systems to the target database with zero integrity loss.
+              </p>
+
+              <ul class="project-features-list">
+                <li><i data-lucide="arrow-right-circle"></i> Created source and target tables, implementing complex ETL transformation logic using SQL queries.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Performed Source-to-Target validation to ensure correct mapping and identify data mismatches.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Executed Row Count, Null, and Duplicate Validations to guarantee data quality and completeness.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Conducted business rule and calculated field validation across thousands of transformed records.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Authored defect logs, test summary reports, and utilized GitHub for version tracking.</li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag"><i class="devicon-mysql-original colored"></i> MySQL</span>
+                <span class="tech-tag"><i data-lucide="database"></i> SQL Queries</span>
+                <span class="tech-tag"><i data-lucide="check-check"></i> ETL Testing</span>
+                <span class="tech-tag"><i data-lucide="file-spreadsheet"></i> MS Excel</span>
+                <span class="tech-tag"><i class="devicon-github-original colored"></i> GitHub</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: CI/CD Pipeline Demo -->
+          <article class="project-card">
+            <div class="project-banner project-banner-cicd">
+              <div class="project-banner-overlay">
+                <span class="project-category-tag"><i data-lucide="cloud"></i> DevOps & Cloud</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">CI/CD Pipeline Demo</h3>
+              <p class="project-description">
+                Production-ready automated deployment pipeline with GitHub Actions, Docker containerization, and automated zero-downtime deployment to AWS EC2.
+              </p>
+
+              <ul class="project-features-list">
+                <li><i data-lucide="arrow-right-circle"></i> Automated the build, testing, and release pipeline of a Node.js web application via GitHub Actions.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Containerized the application using multi-stage Docker builds to ensure consistent runtime environments.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Automated deployment to AWS EC2 instance using SSH keys and automated shell scripts.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Configured security groups, environment secrets, and container restart policies.</li>
+                <li><i data-lucide="arrow-right-circle"></i> Established hands-on DevOps practices, automated rollbacks, and log tracking.</li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag"><i class="devicon-nodejs-plain colored"></i> Node.js</span>
+                <span class="tech-tag"><i class="devicon-docker-plain colored"></i> Docker</span>
+                <span class="tech-tag"><i class="devicon-github-original colored"></i> GitHub Actions</span>
+                <span class="tech-tag"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS EC2</span>
+                <span class="tech-tag"><i class="devicon-bash-plain colored"></i> Bash / SSH</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section with Tech Images/Logos -->
+    <section class="section" id="skills">
+      <div class="container">
+        
+        <div class="section-heading-container">
+          <div class="header-icon-badge">
+            <i data-lucide="cpu"></i>
+          </div>
+          <div>
+            <h2 class="academic-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Core technical proficiencies with official tools and frameworks</p>
+          </div>
+        </div>
+
+        <div class="skills-categories-grid">
+          
+          <!-- Category 1: DevOps & Cloud -->
+          <div class="skills-category-card">
+            <div class="cat-header">
+              <div class="cat-icon-wrap"><i data-lucide="cloud"></i></div>
+              <h3 class="cat-title">DevOps & Cloud</h3>
+            </div>
+            <div class="skill-items-grid">
+              
+              <div class="skill-item" title="Docker Containerization">
+                <div class="skill-icon-box">
+                  <i class="devicon-docker-plain colored"></i>
+                </div>
+                <span class="skill-name">Docker</span>
+              </div>
+
+              <div class="skill-item" title="Amazon Web Services">
+                <div class="skill-icon-box">
+                  <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                </div>
+                <span class="skill-name">AWS (EC2, S3)</span>
+              </div>
+
+              <div class="skill-item" title="Linux OS & Administration">
+                <div class="skill-icon-box">
+                  <i class="devicon-linux-plain colored"></i>
+                </div>
+                <span class="skill-name">Linux</span>
+              </div>
+
+              <div class="skill-item" title="Bash Scripting & Automation">
+                <div class="skill-icon-box">
+                  <i class="devicon-bash-plain colored"></i>
+                </div>
+                <span class="skill-name">Bash Scripting</span>
+              </div>
+
+              <div class="skill-item" title="Jenkins CI/CD">
+                <div class="skill-icon-box">
+                  <i class="devicon-jenkins-line colored"></i>
+                </div>
+                <span class="skill-name">Jenkins</span>
+              </div>
+
+              <div class="skill-item" title="CI/CD Pipelines">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <span class="skill-name">CI / CD</span>
+              </div>
+
+              <div class="skill-item" title="Git Version Control">
+                <div class="skill-icon-box">
+                  <i class="devicon-git-plain colored"></i>
+                </div>
+                <span class="skill-name">Git</span>
+              </div>
+
+              <div class="skill-item" title="GitHub Collaboration">
+                <div class="skill-icon-box">
+                  <i class="devicon-github-original colored"></i>
+                </div>
+                <span class="skill-name">GitHub</span>
+              </div>
+
+              <div class="skill-item" title="AWS IAM">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                </div>
+                <span class="skill-name">AWS IAM</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category 2: Networking & Telecom -->
+          <div class="skills-category-card">
+            <div class="cat-header">
+              <div class="cat-icon-wrap"><i data-lucide="network"></i></div>
+              <h3 class="cat-title">Networking & Telecom</h3>
+            </div>
+            <div class="skill-items-grid">
+              
+              <div class="skill-item" title="Signaling System No. 7">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                    <path d="M4 11a9 9 0 0 1 9 9"></path>
+                    <path d="M4 4a16 16 0 0 1 16 16"></path>
+                    <circle cx="5" cy="19" r="1"></circle>
+                  </svg>
+                </div>
+                <span class="skill-name">SS7</span>
+              </div>
+
+              <div class="skill-item" title="SIGTRAN Architecture">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                  </svg>
+                </div>
+                <span class="skill-name">SIGTRAN</span>
+              </div>
+
+              <div class="skill-item" title="M3UA, SCTP, MTP3, SCCP, TCAP, ISUP">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                  </svg>
+                </div>
+                <span class="skill-name">M3UA / SCTP</span>
+              </div>
+
+              <div class="skill-item" title="TCP/IP Protocols">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                </div>
+                <span class="skill-name">TCP / IP</span>
+              </div>
+
+              <div class="skill-item" title="HTTP & HTTPS Protocols">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <span class="skill-name">HTTP / HTTPS</span>
+              </div>
+
+              <div class="skill-item" title="Domain Name System">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+                  </svg>
+                </div>
+                <span class="skill-name">DNS</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category 3: Programming & Databases -->
+          <div class="skills-category-card">
+            <div class="cat-header">
+              <div class="cat-icon-wrap"><i data-lucide="code"></i></div>
+              <h3 class="cat-title">Programming & Databases</h3>
+            </div>
+            <div class="skill-items-grid">
+              
+              <div class="skill-item" title="Java Programming">
+                <div class="skill-icon-box">
+                  <i class="devicon-java-plain colored"></i>
+                </div>
+                <span class="skill-name">Java</span>
+              </div>
+
+              <div class="skill-item" title="Python (Basic)">
+                <div class="skill-icon-box">
+                  <i class="devicon-python-plain colored"></i>
+                </div>
+                <span class="skill-name">Python</span>
+              </div>
+
+              <div class="skill-item" title="Structured Query Language">
+                <div class="skill-icon-box">
+                  <i class="devicon-mysql-original colored"></i>
+                </div>
+                <span class="skill-name">SQL / MySQL</span>
+              </div>
+
+              <div class="skill-item" title="Object Oriented Programming">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <span class="skill-name">OOP Concepts</span>
+              </div>
+
+              <div class="skill-item" title="Database Validation">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="2">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <span class="skill-name">DB Validation</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category 4: Web Development -->
+          <div class="skills-category-card">
+            <div class="cat-header">
+              <div class="cat-icon-wrap"><i data-lucide="layers"></i></div>
+              <h3 class="cat-title">Web Development</h3>
+            </div>
+            <div class="skill-items-grid">
+              
+              <div class="skill-item" title="React.js Library">
+                <div class="skill-icon-box">
+                  <i class="devicon-react-original colored"></i>
+                </div>
+                <span class="skill-name">React.js</span>
+              </div>
+
+              <div class="skill-item" title="Node.js Runtime">
+                <div class="skill-icon-box">
+                  <i class="devicon-nodejs-plain colored"></i>
+                </div>
+                <span class="skill-name">Node.js</span>
+              </div>
+
+              <div class="skill-item" title="JavaScript (ES6+)">
+                <div class="skill-icon-box">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <span class="skill-name">JavaScript</span>
+              </div>
+
+              <div class="skill-item" title="HTML5 Semantic Markup">
+                <div class="skill-icon-box">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <span class="skill-name">HTML5</span>
+              </div>
+
+              <div class="skill-item" title="CSS3 Responsive Styling">
+                <div class="skill-icon-box">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <span class="skill-name">CSS3</span>
+              </div>
+
+              <div class="skill-item" title="REST API Integration">
+                <div class="skill-icon-box">
+                  <svg class="custom-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#14b8a6" stroke-width="2">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                  </svg>
+                </div>
+                <span class="skill-name">API Integration</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="section" id="education">
+      <div class="container">
+        
+        <div class="section-heading-container">
+          <div class="header-icon-badge">
+            <i data-lucide="graduation-cap"></i>
+          </div>
+          <div>
+            <h2 class="academic-title">Education & Certifications</h2>
+            <p class="section-subtitle">Academic background and recognized professional credentials</p>
+          </div>
+        </div>
+
+        <!-- Academic Cards Layout (Exact HugoBlox Aesthetic) -->
+        <div class="education-grid">
+          
+          <!-- Degree 1 -->
+          <article class="edu-card">
+            <div class="edu-icon-badge">
+              <i data-lucide="graduation-cap"></i>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-degree">B.E – Computer Science and Engineering</h3>
+              <p class="edu-institution">VSB College of Engineering Technical Campus | Anna University</p>
+              <div class="edu-footer">
+                <span class="edu-year"><i data-lucide="calendar"></i> 2021 – 2025</span>
+                <span class="edu-grade"><i data-lucide="award"></i> GPA: 8.2 / 10</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Degree 2 -->
+          <article class="edu-card">
+            <div class="edu-icon-badge">
+              <i data-lucide="school"></i>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-degree">HSC – Computer Science and Math</h3>
+              <p class="edu-institution">Swamy Vivekanadha Matric Hr Sec School | State Board</p>
+              <div class="edu-footer">
+                <span class="edu-year"><i data-lucide="calendar"></i> 2020 – 2021</span>
+                <span class="edu-grade"><i data-lucide="award"></i> 80%</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Certifications Row -->
+        <div class="certifications-block">
+          <h3 class="cert-heading"><i data-lucide="badge-check"></i> Certifications</h3>
+          <div class="certs-grid">
+            
+            <div class="cert-item">
+              <div class="cert-icon-wrap"><i data-lucide="award"></i></div>
+              <div>
+                <h4 class="cert-title">Full Stack Web Development</h4>
+                <p class="cert-issuer">Internship Program</p>
+              </div>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-icon-wrap"><i data-lucide="award"></i></div>
+              <div>
+                <h4 class="cert-title">Java Programming & C Programming</h4>
+                <p class="cert-issuer">Great Learning</p>
+              </div>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-icon-wrap"><i data-lucide="award"></i></div>
+              <div>
+                <h4 class="cert-title">AWS Cloud Foundations</h4>
+                <p class="cert-issuer">AWS Academy</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-heading-container">
+          <div class="header-icon-badge">
+            <i data-lucide="mail"></i>
+          </div>
+          <div>
+            <h2 class="academic-title">Contact</h2>
+            <p class="section-subtitle">Let's discuss opportunities, DevOps architecture, or collaborations</p>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Column -->
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">Get in Touch Directly</h3>
+            <p class="contact-info-text">
+              I am open to full-time DevOps Engineer, Network Engineer, and Cloud Infrastructure roles. Feel free to reach out via email, phone, or LinkedIn!
+            </p>
+
+            <div class="contact-channels-list">
+              
+              <a href="mailto:prasanth909214@gmail.com" class="contact-channel-item">
+                <div class="channel-icon-box"><i data-lucide="mail"></i></div>
+                <div class="channel-content">
+                  <span class="channel-label">Email Address</span>
+                  <span class="channel-value">prasanth909214@gmail.com</span>
+                </div>
+                <button class="channel-action-btn" title="Copy Email" onclick="event.preventDefault(); copyToClipboard('prasanth909214@gmail.com', 'Email copied!')">
+                  <i data-lucide="copy"></i>
+                </button>
+              </a>
+
+              <a href="tel:+919944425150" class="contact-channel-item">
+                <div class="channel-icon-box"><i data-lucide="phone"></i></div>
+                <div class="channel-content">
+                  <span class="channel-label">Mobile Number</span>
+                  <span class="channel-value">+91 9944425150</span>
+                </div>
+                <button class="channel-action-btn" title="Copy Phone" onclick="event.preventDefault(); copyToClipboard('+919944425150', 'Phone number copied!')">
+                  <i data-lucide="copy"></i>
+                </button>
+              </a>
+
+              <div class="contact-channel-item">
+                <div class="channel-icon-box"><i data-lucide="map-pin"></i></div>
+                <div class="channel-content">
+                  <span class="channel-label">Location</span>
+                  <span class="channel-value">Chennai, Tamil Nadu, India</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Social Links in Contact -->
+            <div class="contact-socials-group">
+              <span class="social-label">Find me on:</span>
+              <div class="social-pills-row">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill-link" title="LinkedIn Profile">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Boobesh1503" target="_blank" rel="noopener noreferrer" class="social-pill-link" title="GitHub Profile">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-card">
+            <h3 class="contact-form-title">Send a Message</h3>
+            <p class="contact-form-subtitle">Directly delivers to Boobesh's email inbox</p>
+            
+            <form id="contact-form" class="styled-form" action="https://formsubmit.co/prasanth909214@gmail.com" method="POST">
+              <!-- FormSubmit Configuration -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="_subject" placeholder="Opportunity for DevOps Engineer / Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Hello Boobesh, I came across your profile and would like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gradient-cv submit-btn" id="submit-btn">
+                <i data-lucide="send"></i>
+                <span id="submit-btn-text">Send Message</span>
+              </button>
+              
+              <div class="form-direct-notice">
+                <i data-lucide="shield-check"></i>
+                <span>Direct delivery to <strong>prasanth909214@gmail.com</strong></span>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Resume Viewer Modal -->
+  <div class="modal-overlay" id="resume-modal" aria-hidden="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i data-lucide="file-text" class="modal-title-icon"></i>
+          <div>
+            <h3 class="modal-title">Boobesh Prasath M - Curriculum Vitae</h3>
+            <p class="modal-subtitle">Network & DevOps Engineer | 2-Page Resume</p>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button class="modal-btn" onclick="window.print()" title="Print CV">
+            <i data-lucide="printer"></i>
+            <span>Print</span>
+          </button>
+          <button class="modal-btn" id="modal-download-btn" title="Download CV">
+            <i data-lucide="download"></i>
+            <span>Download</span>
+          </button>
+          <button class="modal-close-btn" id="close-modal-btn" aria-label="Close modal">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Resume Paper Body -->
+      <div class="modal-body">
+        <div class="resume-paper" id="resume-printable-area">
+          
+          <!-- Resume Page 1 -->
+          <div class="resume-sheet">
+            <header class="sheet-header">
+              <h1 class="sheet-name">BOOBESH PRASATH M</h1>
+              <p class="sheet-role">DevOps Engineer | Python | SQL | Linux | AWS | Docker</p>
+              <p class="sheet-contact-line">
+                +91 9944425150 &nbsp;|&nbsp; 
+                <a href="mailto:prasanth909214@gmail.com">prasanth909214@gmail.com</a> &nbsp;|&nbsp; 
+                Chennai, Tamil Nadu &nbsp;|&nbsp; 
+                <a href="https://linkedin.com">LinkedIn</a> &nbsp;|&nbsp; 
+                <a href="https://github.com/Boobesh1503" target="_blank">GitHub</a> &nbsp;|&nbsp; 
+                <a href="#">Portfolio</a>
+              </p>
+            </header>
+
+            <section class="sheet-section">
+              <h2 class="sheet-section-title">PROFESSIONAL SUMMARY</h2>
+              <p class="sheet-summary-text">
+                B.E. Computer Science graduate with 7 months of experience as a Network Engineer at Capgemini. Skilled in DevOps practices, Networking, Linux, Bash scripting, database validation, Configuration Validation, Log analysis and troubleshooting. Hands-on experience with AWS (EC2, S3), Docker, CI/CD, Git & GitHub. Strong analytical and problem-solving skills with the ability to work effectively and quickly adapt to new technologies.
+              </p>
+            </section>
+
+            <section class="sheet-section">
+              <h2 class="sheet-section-title">TECHNICAL SKILLS</h2>
+              <div class="sheet-skills-table">
+                <div class="skill-row"><strong>Programming:</strong> Java, Python (Basic), OOP Concepts</div>
+                <div class="skill-row"><strong>DevOps:</strong> Docker, Linux, Bash Scripting, Jenkins, CI/CD, Git & GitHub, AWS (EC2, S3), IAM</div>
+                <div class="skill-row"><strong>Networking:</strong> Networking Fundamentals, TCP/IP, HTTP/HTTPS, DNS, SS7, SIGTRAN</div>
+                <div class="skill-row"><strong>Web Development:</strong> HTML5, CSS3, JavaScript, React.js, Node.js, API Integration, Database Management</div>
+              </div>
+            </section>
+
+            <section class="sheet-section">
+              <h2 class="sheet-section-title">EXPERIENCE</h2>
+              
+              <div class="sheet-job">
+                <div class="sheet-job-header">
+                  <div>
+                    <strong>CAPGEMINI</strong> | Network Engineer
+                    <div class="sheet-job-sub">Nokia Open Services Platform (OSP) Project</div>
+                  </div>
+                  <span class="sheet-job-date">Sep 2025 – Mar 2026</span>
+                </div>
+                <ul class="sheet-bullets">
+                  <li>Developed and enhanced data recovery scripts to restore and validate telecom configuration data during system failures and configuration mismatches.</li>
+                  <li>Automated configuration data extraction and performed comparisons against live database values to identify missing, corrupted, or mismatched configurations.</li>
+                  <li>Supported the recovery of deleted or corrupted telecom configuration data and validated restored values to ensure system consistency.</li>
+                  <li>Analyzed logs, trace files, and SS7-related traces to investigate system failures, configuration issues, and network-related problems.</li>
+                  <li>Performed troubleshooting across Linux CLI, middleware, and database layers using structured debugging and Linux commands.</li>
+                  <li>Used Bash scripting and Linux utilities to automate configuration validation, data extraction, comparison, and file-management activities.</li>
+                  <li>Validated telecom configuration parameters including DPC, SPC, SSN, and related signaling configurations against database records.</li>
+                  <li>Worked with SS7 and SIGTRAN architecture, with exposure to M3UA, SCTP, MTP3, SCCP, TCAP, and ISUP.</li>
+                </ul>
+              </div>
+
+              <div class="sheet-job">
+                <div class="sheet-job-header">
+                  <div>
+                    <strong>Frontend Developer</strong> | Techvolt Software Private Ltd
+                  </div>
+                  <span class="sheet-job-date">June 2024 – Aug 2024</span>
+                </div>
+                <ul class="sheet-bullets">
+                  <li>Assisted in developing responsive and user-friendly web pages using HTML5 and CSS3, ensuring compatibility across different devices and browsers.</li>
+                  <li>Supported the creation of UI prototypes, wireframes, and mockups using Figma and Miro, contributing to design discussions and user interface improvements.</li>
+                  <li>Participated in frontend development tasks, collaborated with team members during code reviews, and utilized Git for version control and project management activities.</li>
+                </ul>
+              </div>
+
+            </section>
+          </div>
+
+          <!-- Resume Page 2 -->
+          <div class="resume-sheet">
+            <section class="sheet-section">
+              <h2 class="sheet-section-title">PROJECTS</h2>
+
+              <div class="sheet-project">
+                <div class="sheet-project-title">Sales Data ETL Validation Project</div>
+                <ul class="sheet-bullets">
+                  <li>Developed an ETL Testing using MySQL to validate data migration from source systems to target database.</li>
+                  <li>Created source and target table and implemented ETL transformation logic using SQL queries.</li>
+                  <li>Performed Source-to-Target validation to ensure correct data mapping and identify data mismatches.</li>
+                  <li>Executed Row count Validation, Null Validation, and Duplicate Validation to maintain data quality and completeness.</li>
+                  <li>Conducted Transformation Testing by validating business rules, calculated fields, and transformed data.</li>
+                  <li>Created and maintained ETL test cases, defect reports, and test summary reports for effective test documentation.</li>
+                  <li>Utilized SQL, MySQL, Microsoft Excel, and GitHub to perform data validation, data tracking and documentation.</li>
+                </ul>
+              </div>
+
+              <div class="sheet-project">
+                <div class="sheet-project-title">CI/CD Pipeline Demo | Node.js, Docker, GitHub Actions, AWS EC2</div>
+                <ul class="sheet-bullets">
+                  <li>Automated the build, testing, and deployment process of a Node.js application using GitHub Actions.</li>
+                  <li>Containerized the application using Docker to ensure consistent deployment across environments.</li>
+                  <li>Deployed the application to AWS EC2 using SSH and shell scripting, gaining hands-on experience in CI/CD and DevOps practices.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="sheet-section">
+              <h2 class="sheet-section-title">EDUCATION</h2>
+              
+              <div class="sheet-edu-row">
+                <div>
+                  <strong>B.E – Computer Science and Engineering</strong>
+                  <div>VSB College of Engineering Technical Campus | Anna University</div>
+                </div>
+                <div class="sheet-edu-meta">
+                  <span>2021 – 2025</span>
+                  <div>GPA: 8.2 / 10</div>
+                </div>
+              </div>
+
+              <div class="sheet-edu-row">
+                <div>
+                  <strong>HSC – Computer Science and Math</strong>
+                  <div>Swamy Vivekanadha Matric Hr Sec School | State Board</div>
+                </div>
+                <div class="sheet-edu-meta">
+                  <span>2020 – 2021</span>
+                  <div>80%</div>
+                </div>
+              </div>
+            </section>
+
+            <section class="sheet-section">
+              <h2 class="sheet-section-title">CERTIFICATIONS</h2>
+              <ul class="sheet-certs-list">
+                <li>Full Stack Web Development – Internship Program</li>
+                <li>Java Programming & C Programming – Great Learning</li>
+                <li>AWS Cloud Foundations – AWS Academy</li>
+              </ul>
+            </section>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div class="modal-overlay" id="search-modal" aria-hidden="true">
+    <div class="search-modal-container">
+      <div class="search-input-wrap">
+        <i data-lucide="search" class="search-input-icon"></i>
+        <input type="text" id="quick-search-input" placeholder="Type to search skills, experience, projects, education..." autocomplete="off">
+        <button class="search-modal-close" id="search-close-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="search-results-list" id="search-results-list">
+        <!-- Results injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2025 Boobesh Prasath M. Built with precision and modern web performance.</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Project</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
