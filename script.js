@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: 'SS7 & SIGTRAN Signaling Analysis', category: 'Experience', link: '#experience' },
     { title: 'Techvolt Software - Frontend Developer', category: 'Experience', link: '#experience' },
     { title: 'Enterprise CRM & Workforce Management System', category: 'Project', link: '#projects' },
-    { title: 'Sales Data ETL Validation Project', category: 'Project', link: '#projects' },
+    { title: 'Sales Data ETL Validation & DevOps Automation', category: 'Project', link: '#projects' },
     { title: 'CI/CD Pipeline Demo (Node.js & Docker)', category: 'Project', link: '#projects' },
     { title: 'AWS (EC2, S3, IAM)', category: 'Skill', link: '#skills' },
     { title: 'Docker Containerization', category: 'Skill', link: '#skills' },
