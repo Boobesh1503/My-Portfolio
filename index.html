@@ -346,7 +346,7 @@
 
         <div class="projects-timeline">
           
-          <!-- Project Card 1: Enterprise CRM & Workforce Management System -->
+          <!-- Project 1: Enterprise CRM & Workforce Management System -->
           <article class="project-card">
             <div class="project-header">
               <div class="project-header-left">
@@ -379,7 +379,7 @@
 
             <div class="project-body">
               <p class="project-overview">
-                Full-stack CRM platform developed to streamline enterprise lead management, sales tracking, employee operations, and business workflows.
+                Comprehensive full-stack CRM and workforce platform built to streamline enterprise lead management, sales operations, employee administration, and analytics workflows.
               </p>
               <h4 class="exp-subheading">KEY ARCHITECTURAL HIGHLIGHTS &amp; DELIVERABLES</h4>
               <ul class="exp-bullets">
@@ -420,69 +420,84 @@
             </div>
           </article>
 
-          <!-- Project Card 2: Sales ETL Project -->
+          <!-- Project 2: Sales Data ETL Validation & DevOps Automation -->
           <article class="project-card">
             <div class="project-header">
               <div class="project-header-left">
                 <div class="project-icon-badge etl-badge">
-                  <i data-lucide="database"></i>
+                  <i data-lucide="git-branch"></i>
                 </div>
                 <div class="project-title-block">
                   <div class="project-title-row">
-                    <h3 class="project-title">Sales Data ETL Validation Project</h3>
-                    <span class="badge-pill data-pill">DATA &amp; TESTING</span>
+                    <h3 class="project-title">Sales Data ETL Validation &amp; DevOps Automation</h3>
+                    <span class="badge-pill cicd-pill">DEVOPS &amp; AUTOMATION</span>
                   </div>
                   <div class="project-meta-row">
-                    <span class="exp-company">ETL Quality Assurance</span>
+                    <span class="exp-company">Automated Testing &amp; CI/CD Pipeline</span>
                     <span class="dot-separator">•</span>
-                    <span class="exp-project">Source-to-Target Data Migration</span>
+                    <span class="exp-project">Docker Deployment</span>
                     <span class="dot-separator">•</span>
-                    <span class="exp-date"><i data-lucide="shield-check"></i> Data Integrity Suite</span>
+                    <span class="exp-date"><i data-lucide="cloud"></i> Cloud Infrastructure</span>
                   </div>
                 </div>
+              </div>
+              <div class="project-header-actions">
+                <a href="https://github.com/Boobesh1503/Sales-Data-ETL-Validation-Project" target="_blank" rel="noopener noreferrer" class="project-btn project-btn-outline" title="GitHub Repository">
+                  <i class="devicon-github-original"></i> GitHub
+                </a>
               </div>
             </div>
 
             <div class="project-body">
               <p class="project-overview">
-                Comprehensive ETL testing suite utilizing MySQL to validate end-to-end data migration from enterprise source systems to the target database with zero integrity loss.
+                Built an automated ETL data validation project integrated with CI/CD pipelines using GitHub Actions. Implemented automated testing, Docker containerization, image publishing, and deployment automation to an AWS EC2 Linux server.
               </p>
-              <h4 class="exp-subheading">KEY DELIVERABLES &amp; VALIDATION TASKS</h4>
+              <h4 class="exp-subheading">KEY DELIVERABLES &amp; DEVOPS IMPLEMENTATION</h4>
               <ul class="exp-bullets">
                 <li>
                   <i data-lucide="check-circle-2" class="bullet-icon"></i>
-                  <span><strong>Schema &amp; Logic Implementation:</strong> Created source and target tables, implementing complex ETL transformation logic using SQL queries.</span>
+                  <span><strong>Automated Testing:</strong> Developed Python validation scripts and implemented 14 automated test cases using Pytest to detect data quality issues.</span>
                 </li>
                 <li>
                   <i data-lucide="check-circle-2" class="bullet-icon"></i>
-                  <span><strong>Source-to-Target Validation:</strong> Performed Source-to-Target validation to ensure correct mapping and identify data mismatches.</span>
+                  <span><strong>CI/CD Pipeline:</strong> Configured GitHub Actions to automatically run validation tests whenever code changes are pushed to the repository.</span>
                 </li>
                 <li>
                   <i data-lucide="check-circle-2" class="bullet-icon"></i>
-                  <span><strong>Quality Assurance:</strong> Executed Row Count, Null, and Duplicate Validations to guarantee data quality and completeness.</span>
+                  <span><strong>Docker Containerization:</strong> Created a Dockerfile to containerize the ETL validation application and ensure consistent execution environments.</span>
                 </li>
                 <li>
                   <i data-lucide="check-circle-2" class="bullet-icon"></i>
-                  <span><strong>Transformation Testing:</strong> Conducted business rule and calculated field validation across thousands of transformed records.</span>
+                  <span><strong>Container Registry Automation:</strong> Automated Docker image building and publishing to GitHub Container Registry (GHCR).</span>
                 </li>
                 <li>
                   <i data-lucide="check-circle-2" class="bullet-icon"></i>
-                  <span><strong>Defect Management:</strong> Authored defect logs, test summary reports, and utilized GitHub for version tracking.</span>
+                  <span><strong>Cloud Deployment:</strong> Deployed and executed the Docker container on an AWS EC2 Linux instance.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="bullet-icon"></i>
+                  <span><strong>Deployment Automation:</strong> Configured AWS Systems Manager (SSM) and IAM permissions to enable remote deployment operations through GitHub Actions.</span>
                 </li>
               </ul>
 
               <!-- Tech Tag Pills -->
               <div class="tech-tags-list">
-                <span class="tech-tag"><i class="devicon-mysql-original colored"></i> MySQL</span>
-                <span class="tech-tag"><i data-lucide="database"></i> SQL Queries</span>
-                <span class="tech-tag"><i data-lucide="check-check"></i> ETL Testing</span>
-                <span class="tech-tag"><i data-lucide="file-spreadsheet"></i> MS Excel</span>
+                <span class="tech-tag"><i class="devicon-python-plain colored"></i> Python</span>
+                <span class="tech-tag"><i data-lucide="database"></i> SQL</span>
+                <span class="tech-tag"><i data-lucide="flask-conical"></i> Pytest</span>
+                <span class="tech-tag"><i class="devicon-docker-plain colored"></i> Docker</span>
+                <span class="tech-tag"><i class="devicon-github-original colored"></i> GitHub Actions</span>
                 <span class="tech-tag"><i class="devicon-github-original colored"></i> GitHub</span>
+                <span class="tech-tag"><i data-lucide="package"></i> GHCR</span>
+                <span class="tech-tag"><i class="devicon-linux-plain colored"></i> Linux</span>
+                <span class="tech-tag"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS EC2</span>
+                <span class="tech-tag"><i data-lucide="settings"></i> AWS SSM</span>
+                <span class="tech-tag"><i data-lucide="shield-check"></i> IAM</span>
               </div>
             </div>
           </article>
 
-          <!-- Project Card 3: CI/CD Pipeline Demo -->
+          <!-- Project 3: CI/CD Pipeline Demo -->
           <article class="project-card">
             <div class="project-header">
               <div class="project-header-left">
@@ -1159,15 +1174,13 @@
               </div>
 
               <div class="sheet-project">
-                <div class="sheet-project-title">Sales Data ETL Validation Project</div>
+                <div class="sheet-project-title">Sales Data ETL Validation &amp; DevOps Automation | Python, Pytest, Docker, GitHub Actions, AWS EC2</div>
                 <ul class="sheet-bullets">
-                  <li>Developed an ETL Testing using MySQL to validate data migration from source systems to target database.</li>
-                  <li>Created source and target table and implemented ETL transformation logic using SQL queries.</li>
-                  <li>Performed Source-to-Target validation to ensure correct data mapping and identify data mismatches.</li>
-                  <li>Executed Row count Validation, Null Validation, and Duplicate Validation to maintain data quality and completeness.</li>
-                  <li>Conducted Transformation Testing by validating business rules, calculated fields, and transformed data.</li>
-                  <li>Created and maintained ETL test cases, defect reports, and test summary reports for effective test documentation.</li>
-                  <li>Utilized SQL, MySQL, Microsoft Excel, and GitHub to perform data validation, data tracking and documentation.</li>
+                  <li>Developed Python validation scripts and implemented 14 automated test cases using Pytest to detect data quality issues.</li>
+                  <li>Configured GitHub Actions CI/CD pipeline to automatically run validation tests on every code push.</li>
+                  <li>Containerized the ETL validation application using Docker and automated image publishing to GitHub Container Registry (GHCR).</li>
+                  <li>Deployed and executed the Docker container on an AWS EC2 Linux instance.</li>
+                  <li>Configured AWS Systems Manager (SSM) and IAM permissions to enable remote deployment automation through GitHub Actions.</li>
                 </ul>
               </div>
 
